@@ -15,9 +15,9 @@ export interface UserState {
 export function defaultSetting(): UserState {
   return {
     userInfo: {
-      avatar: 'https://raw.githubusercontent.com/Dooy/chatgpt-web-midjourney-proxy/main/src/assets/avatar.jpg',
-      name:  t('mjset.sysname'),//'AI绘图',
-      description: 'Star on <a href="https://github.com/Dooy/chatgpt-web-midjourney-proxy" class="text-blue-500" target="_blank" >GitHub</a>',
+      avatar: 'https://fubaige.oss-accelerate.aliyuncs.com/Ai.png',
+      name:  t('AIGC全能王'),//'AIGC全能王',
+      description: '私人专属AIGC创享<a href="https://api.fubaige.cn" class="text-blue-500" target="_blank" >购买key</a>',
     },
   }
 }
